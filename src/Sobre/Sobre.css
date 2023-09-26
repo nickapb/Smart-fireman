@@ -1,0 +1,54 @@
+.sobre{
+    background: #FFF;
+}
+
+.logos{
+    display: flex;
+    justify-content: left;
+}
+
+.logos img{
+    width: 8rem;
+}
+
+.menus{
+    display: flex;
+    justify-content: right;
+}
+
+.menus img{
+    width: 2.5rem;
+}
+
+.titulos{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contents{
+    text-align: right;
+    justify-content: right;
+}
+
+.texts p{
+    color: #000;
+    font-family: Commissioner;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.figures{
+    display: flex;
+    justify-content: left;
+  }
+
+.figures img{
+    width: 35rem;
+    height: 35rem;
+}

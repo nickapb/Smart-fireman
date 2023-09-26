@@ -1,0 +1,63 @@
+.publico{
+    background: #F5F0F0;
+}
+
+.logopb{
+    display: flex;
+    justify-content: left;
+}
+
+.logopb img{
+    width: 8rem;
+}
+
+.menupb{
+    display: flex;
+    justify-content: right;
+}
+
+.menupb img{
+    width: 2.5rem;
+}
+
+.titulopb{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contentpb{
+    text-align: left;
+    justify-content: left;
+}
+
+.textpb li{
+    color: #000;
+    font-family: Commissioner;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.textpb p{
+    color: #000;
+    font-family: Commissioner;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.figurepb{
+    display: flex;
+    justify-content: right;
+  }
+
+.figurepb img{
+    width: 35rem;
+    height: 35rem;
+}
