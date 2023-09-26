@@ -4,7 +4,7 @@ import Logo from './Img/Logo.png'
 import Exemplo from './Img/img-exe.png'
 import LMenu from './Img/list.png'
 
-function App(){
+function Publico(){
     return(
         <div className='publico'>
         <header className='Menupb'>
@@ -64,4 +64,4 @@ function App(){
     )
 }
 
-export default App
+export default Publico

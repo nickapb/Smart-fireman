@@ -6,7 +6,7 @@ import LMenu from './Img/list.png'
 
 
 
-function App() {
+function Sobre() {
     return (
       <div className='sobre'>
       <header className='Menus'>
@@ -40,4 +40,4 @@ function App() {
     )
   }
   
-  export default App
+  export default Sobre
