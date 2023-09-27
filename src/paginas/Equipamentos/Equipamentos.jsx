@@ -7,8 +7,8 @@ import MQ2 from './img/MQ-2.png'
 import GSM from './img/GSM.png'
 import KY026 from './img/KY-026.png'
 import LCD from './img/LCD.png'
-import LM25963A from './img/LM2596-'
-
+import LM25963A from './img/LM2596-3A.png'
+import Bateria from './img/Bateria-externa.png'
 
 
 function Equipamento() {
@@ -30,8 +30,53 @@ function Equipamento() {
           <img src={Arduino} alt="Logo do Smart FireMan"/>
       </div>
       <main className='contents'>
+        <div className=''>
+          <img src={Arduino} alt="imagem da placa de arduino uno" />
+        </div>
         <div className='texts'>
-          <p>O diferencial do nosso projeto Smart FireMan em relação aos demais é a sua capacidade de detectar não apenas gases, calor e fumaça, mas também chamas. Isso significa que o Smart FireMan oferece uma camada adicional de segurança, identificando de forma precisa e imediata a presença de chamas, permitindo uma resposta rápida e eficaz. Além disso, o design compacto do Smart FireMan é altamente versátil, podendo ser facilmente instalado em paredes ou qualquer outro local, adaptando-se perfeitamente às necessidades de cada ambiente. Combinando tecnologia avançada e praticidade, o Smart FireMan é a escolha ideal para uma proteção completa contra incêndios.</p>
+          <p>O Arduino serve para facilitar o aprendizado de programação, ensinando as pessoas a desenvolverem projetos de eletrônica e de robótica, automatizar escritório, criar um novo brinquedo ou jogos, etc. A lista de possibilidades é enorme.</p>
+        </div>
+
+        <div className=''>
+          <img src={MQ2} alt="imagem da placa de arduino uno" />
+        </div>
+        <div className='texts'>
+          <p>Os sensores MQ são uma série de sensores de gás que detectam a presença de gases específicos no ar. Eles operam usando um princípio de detecção de condutividade que é influenciado pela presença de diferentes gases.</p>
+        </div>
+
+        <div className=''>
+          <img src={LCD} alt="imagem da placa de arduino uno" />
+        </div>
+        <div className='texts'>
+          <p>Os displays LCD são capazes de exibir uma grande variedade de informações, desde simples números e letras até gráficos complexos e imagens de alta resolução. Eles são amplamente utilizados em dispositivos eletrônicos, como smartphones, tablets, computadores, TVs e outros equipamentos.</p>
+        </div>
+
+        <div className=''>
+          <img src={KY026} alt="imagem da placa de arduino uno" />
+        </div>
+        <div className='texts'>
+          <p>A partir da detecção feita pelo sensor, o microcontrolador que estiver ligado ao módulo será notificado e poderá tomar uma ou várias ações que o usuário determinar. Este Sensor Detector de Fogo/Chama Infravermelho pode detectar o espectro de chama/fogo/calor.</p>
+        </div>
+
+        <div className=''>
+          <img src={GSM} alt="imagem da placa de arduino uno" />
+        </div>
+        <div className='texts'>
+          <p>É usado para ter acesso as redes operacionais de celular por todo o Brasil. Basta inserir um cartão SIM Card / chip para ter acesso as funcionalidades do produto.</p>
+        </div>
+
+        <div className=''>
+          <img src={LM25963A} alt="imagem da placa de arduino uno" />
+        </div>
+        <div className='texts'>
+          <p>Trata-se de um módulo regulador de tensão que aceita tensões de 4,5 a 28 V com saída variando de 0,8 a 20 V</p>
+        </div>
+
+        <div className=''>
+          <img src={Bateria} alt="imagem da placa de arduino uno" />
+        </div>
+        <div className='texts'>
+          <p>Para alimentar o Arduino com 4 pilhas comuns 4x1,5=6V, é bom colocar um diodo 1N4001 a 1N4007 em série, que deve reduzir a tensão para 5,3V. Para alimentar o Arduino com 4 pilhas recarregáveis 4x1,35V=5,4V, dá para ligar direto, ou ligar um diodo 1N5817, para reduzir para 5.1V</p>
         </div>
 
       </main>
