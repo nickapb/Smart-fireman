@@ -22,12 +22,12 @@ function Equipamento() {
           <h1>Equipamentos</h1>
         </div>
         <div className='menus'>
-          <img src={LMenu} alt="Logo do Smart FireMan"/>
+          <img src={LMenu} alt="Logo do menu"/>
         </div>
       </header>
 
       <div className='figures'>
-          <img src={Arduino} alt="Logo do Smart FireMan"/>
+          <img src={Arduino} alt="Logo da placa de arduino uno"/>
       </div>
       <main className='contents'>
         <div className=''>
@@ -38,42 +38,42 @@ function Equipamento() {
         </div>
 
         <div className=''>
-          <img src={MQ2} alt="imagem da placa de arduino uno" />
+          <img src={MQ2} alt="imagem do MQ-2" />
         </div>
         <div className='texts'>
           <p>Os sensores MQ são uma série de sensores de gás que detectam a presença de gases específicos no ar. Eles operam usando um princípio de detecção de condutividade que é influenciado pela presença de diferentes gases.</p>
         </div>
 
         <div className=''>
-          <img src={LCD} alt="imagem da placa de arduino uno" />
+          <img src={LCD} alt="imagem do LCD" />
         </div>
         <div className='texts'>
           <p>Os displays LCD são capazes de exibir uma grande variedade de informações, desde simples números e letras até gráficos complexos e imagens de alta resolução. Eles são amplamente utilizados em dispositivos eletrônicos, como smartphones, tablets, computadores, TVs e outros equipamentos.</p>
         </div>
 
         <div className=''>
-          <img src={KY026} alt="imagem da placa de arduino uno" />
+          <img src={KY026} alt="imagem do KY026" />
         </div>
         <div className='texts'>
           <p>A partir da detecção feita pelo sensor, o microcontrolador que estiver ligado ao módulo será notificado e poderá tomar uma ou várias ações que o usuário determinar. Este Sensor Detector de Fogo/Chama Infravermelho pode detectar o espectro de chama/fogo/calor.</p>
         </div>
 
         <div className=''>
-          <img src={GSM} alt="imagem da placa de arduino uno" />
+          <img src={GSM} alt="imagem do GSM" />
         </div>
         <div className='texts'>
           <p>É usado para ter acesso as redes operacionais de celular por todo o Brasil. Basta inserir um cartão SIM Card / chip para ter acesso as funcionalidades do produto.</p>
         </div>
 
         <div className=''>
-          <img src={LM25963A} alt="imagem da placa de arduino uno" />
+          <img src={LM25963A} alt="imagem do LM25963A" />
         </div>
         <div className='texts'>
           <p>Trata-se de um módulo regulador de tensão que aceita tensões de 4,5 a 28 V com saída variando de 0,8 a 20 V</p>
         </div>
 
         <div className=''>
-          <img src={Bateria} alt="imagem da placa de arduino uno" />
+          <img src={Bateria} alt="imagem da bateria" />
         </div>
         <div className='texts'>
           <p>Para alimentar o Arduino com 4 pilhas comuns 4x1,5=6V, é bom colocar um diodo 1N4001 a 1N4007 em série, que deve reduzir a tensão para 5,3V. Para alimentar o Arduino com 4 pilhas recarregáveis 4x1,35V=5,4V, dá para ligar direto, ou ligar um diodo 1N5817, para reduzir para 5.1V</p>
