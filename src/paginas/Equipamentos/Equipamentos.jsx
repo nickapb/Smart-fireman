@@ -76,7 +76,7 @@ function Equipamento() {
           <img src={Bateria} alt="imagem da bateria" />
         </div>
         <div className='texts'>
-          <p>Para alimentar o Arduino com 4 pilhas comuns 4x1,5=6V, é bom colocar um diodo 1N4001 a 1N4007 em série, que deve reduzir a tensão para 5,3V. Para alimentar o Arduino com 4 pilhas recarregáveis 4x1,35V=5,4V, dá para ligar direto, ou ligar um diodo 1N5817, para reduzir para 5.1V</p>
+          <p>As baterias 9V proporcionam energia confiável aos aparelhos do dia a dia, como brinquedos, controles remotos, consoles de jogos portáteis, fechaduras eletrônicas, lanternas, etc. Além disso, a tecnologia de Duracell preserva a energia das pilhas que ainda não foram usadas, por até 5 anos.</p>
         </div>
 
       </main>
