@@ -1,25 +1,63 @@
-import './App.css'
+import './Diferencial.css'
 
-import Logo from './Img/Logo.png'
-import Exemplo from './Img/img-exe.png'
-import LMenu from './Img/list.png'
+import { Link } from 'react-router-dom'
+import { useState } from "react"
+import { List, X } from "@phosphor-icons/react"
+
+import Logo from './img/Logo.png'
+import Exemplo from './img/img-exe.png'
 
 
 
 function Diferencial() {
+  const [abrirFechar, setAbrirFechar] = useState(false)
+
+  function handleAbrirFecharMenu() {
+      if(abrirFechar) {
+          setAbrirFechar(false)
+          return
+      }
+
+      setAbrirFechar(true)
+  }
+
     return (
       <div className='sobre'>
       <header className='Menus'>
         <div className='logos'>
           <img src={Logo} alt="Logo do Smart FireMan"/>
         </div>
+        
         <div className='titulos'>
           <h1>Nosso diferencial</h1>
         </div>
-        <div className='menus'>
-          <img src={LMenu} alt="Logo de menu"/>
+        
+        <div className="menu-mobile">
+            <div className="botao-menu">
+                <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? <X size={32} /> : <List size={32} />}</button>
+            </div>
+
+          <div className={`menu ${abrirFechar == true ? "" : "close"}`}>
+                <nav>
+                <Link to={'/'}>Home</Link>
+                <Link to={'/Sobre'}>Sobre</Link>
+                <Link to={'/Publico'}>Público Alvo</Link>
+                <Link to={'/Equipamentos'}>Equipamentos</Link>
+                <Link to={'/Diferencial'}>Diferencial</Link>
+                </nav>
+            </div>
+
+          <div className="menu-desktop">
+            <nav>
+              <Link to={'/'}>Home</Link>
+              <Link to={'/Sobre'}>Sobre</Link>
+              <Link to={'/Publico'}>Público Alvo</Link>
+              <Link to={'/Equipamentos'}>Equipamentos</Link>
+             <Link to={'/Diferencial'}>Diferencial</Link>
+            </nav>
         </div>
-      </header>
+      </div>
+</header>
 
       <main className='contents'>
         <div className='texts'>

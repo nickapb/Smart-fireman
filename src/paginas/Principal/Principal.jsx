@@ -1,23 +1,58 @@
 import './Principal.css'
 
+import { Link } from 'react-router-dom'
+import { useState } from "react"
+import { List, X } from "@phosphor-icons/react"
+
 import Smart from './img/Smart.png'
 
 
 function Principal() {
+  const [abrirFechar, setAbrirFechar] = useState(false)
+
+  function handleAbrirFecharMenu() {
+      if(abrirFechar) {
+          setAbrirFechar(false)
+          return
+      }
+
+      setAbrirFechar(true)
+  }
+
   return (
     <>
-    <header className='principal' >
+    <header >
       
     <div className='menup'>
-       
+    <div className="menu-mobile">
+            <div className="botao-menu">
+                <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? <X size={32} /> : <List size={32} />}</button>
+            </div>
+
+            <div className={`menu ${abrirFechar == true ? "" : "close"}`}>
+                <nav>
+                    <Link to={'/'}>Home</Link>
+                    <Link to={'/Sobre'}>Sobre</Link>
+                    <Link to={'/Publico'}>Público Alvo</Link>
+                    <Link to={'/Equipamentos'}>Equipamentos</Link>
+                    <Link to={'/Diferencial'}>Diferencial</Link>
+                </nav>
+            </div>
+        </div>
+
+        <div className="menu-desktop">
+            <nav>
+              <Link to={'/'}>Home</Link>
+              <Link to={'/Sobre'}>Sobre</Link>
+              <Link to={'/Publico'}>Público Alvo</Link>
+              <Link to={'/Equipamentos'}>Equipamentos</Link>
+             <Link to={'/Diferencial'}>Diferencial</Link>
+            </nav>
+        </div>
+      
     </div>
-  </header>
-
-  <div className='barra1'></div>
-  <div className='barra2'></div>
-  <div className='barra3'></div>
-
-  <main className='principal'>  
+</header>
+<main className='principal'>  
     <div className='figurep'>
     <img src={Smart} alt="Imagem do Smart FireMan"/>
     </div>

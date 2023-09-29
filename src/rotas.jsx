@@ -1,20 +1,15 @@
 import { Routes, Route } from 'react-router-dom'
 
-import Bibliografia from "./paginas/Bibliografia/Bibliografia.jsx"
-import Sobre from "./paginas/Sobre/Sobre.jsx"
-import Publico from "./paginas/Publico-Alvo/Publico.jsx"
-import Equipamentos from "./paginas/Equipamentos/Equipamentos.jsx"
-import Diferencial from "./paginas/Nosso-Diferencial/Diferencial.jsx"
-import Principal from "./paginas/Principal/Principal.jsx"
-
-
-
+import Sobre from './paginas/Sobre/Sobre'
+import Publico from './paginas/Publico-Alvo/Publico'
+import Equipamentos from './paginas/Equipamentos/Equipamentos'
+import Diferencial from './paginas/Diferencial/Diferencial'
+import Principal from './paginas/Principal/Principal'
 
 function Rotas() {
     return (
         <Routes>
             <Route path='/' element={<Principal />} />
-            <Route path='/Bibliografia' element={<Bibliografia />} />
             <Route path='/Sobre' element={<Sobre />} />
             <Route path='/Publico' element={<Publico />} />
             <Route path='/Equipamentos' element={<Equipamentos />} />
