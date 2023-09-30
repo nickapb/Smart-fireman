@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 .botao-menu {
     border: 1px solid #ccc;
     height: 4rem;
@@ -31,11 +33,16 @@
 }
 
 .menu-desktop {
+    background-color: #FFCDC6;
     display: none;
 }
 
+
 @media(min-width: 900px) {
     .menu-mobile {
+        background-color: #FFCDC6;
+        display: flex;
+        justify-content: space-between;
         display: none;
     }
 
@@ -44,52 +51,61 @@
         justify-content: space-between;
         align-items: center;
     }
+
     .publico{
         background: #F5F0F0;
     }
-    
-    .logopb{
-        display: flex;
-        justify-content: left;
-    }
-    
-    .logopb img{
-        width: 8rem;
-    }
-    
-    .menupb{
-        display: flex;
-        justify-content: right;
-    }
-    
-    .menupb img{
-        width: 2.5rem;
-    }
-    
-    .titulopb{
-        color: #000;
+
+    .menupa{
+        background-color: #FFCDC6;
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: Montserrat;
         font-size: 1.2rem;
+        font-weight: 800;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.0rem;    
+    }
+    
+    .titulopa h1{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
+
+    .titulopa img{
+        float: left;
+        justify-content: left;
+        width: 2rem;  
+        margin-top: 0.2rem;
+        margin-left: 1rem;
+    }
     
-    .contentpb{
+    .contentpa{
         text-align: left;
         justify-content: left;
     }
+
+    .textpa{
+        margin-top: 0.2rem;
+        margin-left: 1rem;
+    }
     
-    .textpb li{
+    .textpa li{
         color: #000;
         font-family: Commissioner;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
-    
-    .textpb p{
+
+    .textpa p{
         color: #000;
         font-family: Commissioner;
         font-size: 1.6rem;
@@ -97,14 +113,28 @@
         font-weight: 400;
         line-height: normal;
     }
-    
-    .figurepb{
-        display: flex;
+
+    .pt2{
+        text-align: right;
         justify-content: right;
+    }
+
+    .pt2 li{
+        color: #000;
+        font-family: Commissioner;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+    
+    .figurepa{
+        display: flex;
+        justify-content: center;
       }
     
-    .figurepb img{
-        width: 35rem;
-        height: 35rem;
+    .figurepa img{
+        width: 40rem;
     }
 }

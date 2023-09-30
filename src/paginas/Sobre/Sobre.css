@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .botao-menu {
     border: 1px solid #ccc;
     height: 4rem;
@@ -32,13 +33,16 @@
 }
 
 .menu-desktop {
+    background-color: #FFCDC6;
     display: none;
 }
 
 
-
 @media(min-width: 900px) {
     .menu-mobile {
+        background-color: #FFCDC6;
+        display: flex;
+        justify-content: space-between;
         display: none;
     }
 
@@ -47,59 +51,67 @@
         justify-content: space-between;
         align-items: center;
     }
-   
+
     .sobre{
-        background: #FFF;
+        background: #fff;
     }
-    
-    .logos{
-        display: flex;
-        justify-content: left;
-    }
-    
-    .logos img{
-        width: 8rem;
-    }
-    
+
     .menus{
-        display: flex;
-        justify-content: right;
-    }
-    
-    .menus img{
-        width: 2.5rem;
-    }
-    
-    .titulos{
-        color: #000;
+        background-color: #FFCDC6;
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: Montserrat;
         font-size: 1.2rem;
+        font-weight: 800;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.0rem;    
+    }
+    
+    .titulos h1{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
-    
-    .contents{
-        text-align: right;
-        justify-content: right;
+
+    .titulos img{
+        float: left;
+        justify-content: left;
+        width: 2rem;
+        margin-top: 0.2rem;
+        margin-left: 1rem;
     }
     
+    .contents{
+        text-align: left;
+        justify-content: left;
+    }
+    
+
     .texts p{
         color: #000;
         font-family: Commissioner;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
     }
-    
+
+    .texts{
+        margin-top: 0.2rem;
+        margin-left: 1rem;
+    }
+ 
     .figures{
         display: flex;
-        justify-content: left;
+        justify-content: center;
       }
     
     .figures img{
-        width: 35rem;
-        height: 35rem;
+        width: 50rem;
     }
 }

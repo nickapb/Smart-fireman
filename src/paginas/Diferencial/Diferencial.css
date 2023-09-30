@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .botao-menu {
     border: 1px solid #ccc;
     height: 4rem;
@@ -32,11 +33,16 @@
 }
 
 .menu-desktop {
+    background-color: #FFCDC6;
     display: none;
 }
 
+
 @media(min-width: 900px) {
     .menu-mobile {
+        background-color: #FFCDC6;
+        display: flex;
+        justify-content: space-between;
         display: none;
     }
 
@@ -44,5 +50,67 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .diferencial{
+        background: #fff;
+    }
+
+    .menud{
+        background-color: #FFCDC6;
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Montserrat;
+        font-size: 1.2rem;
+        font-weight: 800;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.0rem;    
+    }
+    
+    .titulod h1{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .titulod img{
+        float: left;
+        justify-content: left;
+        width: 2rem; 
+        margin-top: 0.2rem;
+        margin-left: 1rem; 
+    }
+    
+    .contentd{
+        text-align: left;
+        justify-content: left;
+    }
+
+    .textd{
+        margin-top: 0.2rem;
+        margin-left: 1rem;
+    }
+
+    .textd p{
+        color: #000;
+        font-family: Commissioner;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .figured{
+        display: flex;
+        justify-content: center;
+      }
+    
+    .figured img{
+        width: 50rem;
     }
 }

@@ -26,7 +26,9 @@ function Principal() {
     <div className='menup'>
     <div className="menu-mobile">
             <div className="botao-menu">
-                <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? <X size={32} /> : <List size={32} />}</button>
+                <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? 
+                <X size={32} /> : <List size={32} />}
+            </button>
             </div>
 
             <div className={`menu ${abrirFechar == true ? "" : "close"}`}>
@@ -42,11 +44,10 @@ function Principal() {
 
         <div className="menu-desktop">
             <nav>
-              <Link to={'/'}>Home</Link>
-              <Link to={'/Sobre'}>Sobre</Link>
-              <Link to={'/Publico'}>Público Alvo</Link>
-              <Link to={'/Equipamentos'}>Equipamentos</Link>
-             <Link to={'/Diferencial'}>Diferencial</Link>
+              <Link to={'/Sobre'}>Sobre</Link>&nbsp;&nbsp;&nbsp;
+              <Link to={'/Publico'}>Público Alvo</Link>&nbsp;&nbsp;&nbsp;
+              <Link to={'/Diferencial'}>Diferencial</Link>&nbsp;&nbsp;&nbsp;
+              <Link to={'/Equipamentos'}>Equipamentos</Link>&nbsp;&nbsp;&nbsp;
             </nav>
         </div>
       

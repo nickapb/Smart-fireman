@@ -37,6 +37,9 @@
 
 @media(min-width: 900px) {
     .menu-mobile {
+        background-color: #FFCDC6;
+        display: flex;
+        justify-content: space-between;
         display: none;
     }
 
@@ -45,181 +48,131 @@
         justify-content: space-between;
         align-items: center;
     }
+
     .equip{
         background: #F5F0F0;
     }
-    
-    .logoe{
-        display: flex;
-        justify-content: left;
-    }
-    
-    .logoe img{
-        width: 8rem;
-    }
-    
+
     .menue{
-        display: flex;
-        justify-content: right;
-    }
-    
-    .menue img{
-        width: 2.5rem;
-    }
-    
-    .tituloe{
-        color: #000;
+        background-color: #FFCDC6;
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: Montserrat;
         font-size: 1.2rem;
+        font-weight: 800;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.0rem;    
+    }
+    
+    .tituloe h1{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
-    
+
+    .tituloe img{
+        float: left;
+        justify-content: left;
+        width: 2rem; 
+        margin-top: 0.2rem;
+        margin-left: 1rem;
+    }
+
     .contente{
         text-align: left;
         justify-content: left;
     }
-    
+
     .texte{
+        margin-top: 0.2rem;
+        margin-left: 1rem;
+    }
+
+    .texte h1{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .texte p{
+        color: #000;
+        font-family: Commissioner;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .ard{
         display: flex;
-        width: 969.833px;
-        height: 183px;
-        flex-direction: column;
         justify-content: center;
-        flex-shrink: 0;
-    
-        color: #2D2A2A;
-        font-family: Montserrat;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
     }
-    
-    .ard p{
-        text-align: right;
-        color: #2D2A2A;
-        text-align: right;
-        font-family: Montserrat;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        color: #2D2A2A;
-        text-align: right;
-        font-family: Montserrat;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+
+    .ard img{
+        width: 30rem;
     }
-    
-    .mq p{
+
+    .mq{
         display: flex;
-        width: 971.174px;
-        height: 183px;
-        flex-direction: column;
         justify-content: center;
-        flex-shrink: 0;
-        color: #2D2A2A;
-        font-family: Montserrat;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
     }
-    
-    .lcd p{
-        text-align: right;
+
+    .mq img{
+        width: 30rem;
+    }
+
+    .lcd{
         display: flex;
-        width: 969.833px;
-        height: 183px;
-        flex-direction: column;
         justify-content: center;
-        flex-shrink: 0;
-        color: #2D2A2A;
-        text-align: right;
-        font-family: Montserrat;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
     }
-    
-    .ky p{
+
+    .lcd img{
+        width: 30rem;
+    }
+
+    .ky{
         display: flex;
-        width: 969.833px;
-        height: 183px;
-        flex-direction: column;
         justify-content: center;
-        flex-shrink: 0;
-        color: #2D2A2A;
-        text-align: right;
-        font-family: Montserrat;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
     }
-    
-    .gsm p{
-        text-align: right;
+
+    .ky img{
+        width: 30rem;
+    }
+
+    .gsm{
         display: flex;
-        width: 969.833px;
-        height: 183px;
-        flex-direction: column;
         justify-content: center;
-        flex-shrink: 0;
-        color: #2D2A2A;
-        text-align: right;
-        font-family: Montserrat;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
     }
-    
-    .lm p{
+
+    .gsm img{
+        width: 30rem;
+    }
+
+    .lm{
         display: flex;
-        width: 969.833px;
-        height: 183px;
-        flex-direction: column;
         justify-content: center;
-        flex-shrink: 0;
-        color: #2D2A2A;
-        text-align: right;
-        font-family: Montserrat;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
     }
-    
-    .bateria p{
-        text-align: right;
+
+    .lm img{
+        width: 30rem;
+    }
+
+    .bateria{
         display: flex;
-        width: 969.833px;
-        height: 183px;
-        flex-direction: column;
         justify-content: center;
-        flex-shrink: 0;
-        color: #2D2A2A;
-        text-align: right;
-        font-family: Montserrat;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
     }
-    
-    .figuree{
-        display: flex;
-        justify-content: right;
-      }
-    
-    .figuree img{
-        width: 35rem;
-        height: 35rem;
+
+    .bateria img{
+        width: 30rem;
     }
+
+    
 }

@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .botao-menu {
     border: 1px solid #ccc;
     height: 4rem;
@@ -32,12 +33,16 @@
 }
 
 .menu-desktop {
+    background-color: #FFCDC6;
     display: none;
 }
 
 
 @media(min-width: 900px) {
     .menu-mobile {
+        background-color: #FFCDC6;
+        display: flex;
+        justify-content: space-between;
         display: none;
     }
 
@@ -46,33 +51,32 @@
         justify-content: space-between;
         align-items: center;
     }
-      
-    header{
-        height: 1.5rem;
-        background: #FFCDC6;
+
+    .principal{
+        background: #F5F0F0;
     }
-      .menup{
+
+    .menup{
+        background-color: #FFCDC6;
         color: #FFF;
-        text-align: center;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: Montserrat;
         font-size: 1.2rem;
         font-weight: 800;
-        line-height: normal;
-        text-decoration: none;
-      
         display: flex;
-        margin: 1.2rem;
         justify-content: space-between;
-      }
+        align-items: center;
+        padding: 1.0rem;    
+    }
       
-      .figurep{
+    .figurep{
         display: flex;
         justify-content: center;
     }
       
     .figurep img{
         width: 50rem;
+        margin: 3rem;
     }
       
     .textp{
