@@ -1,55 +1,15 @@
 import './Publico.css'
 
-import { useState } from "react"
-import { List, X } from "@phosphor-icons/react"
-import { Link } from 'react-router-dom'
-
 import Logo from './img/Logo.png'
 import Exemplo from './img/img-exe.png'
+import Header from '../Header/header/header'
 
 function Publico() {
-  const [abrirFechar, setAbrirFechar] = useState(false)
-
-  function handleAbrirFecharMenu() {
-    if (abrirFechar) {
-      setAbrirFechar(false)
-      return
-    }
-
-    setAbrirFechar(true)
-  }
-
+  
 
   return (
-    <div className='publico'>
-      <header className='menup'>
-        <div className="menu-mobile">
-          <div className="botao-menu">
-            <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? <X size={32} /> : <List size={32} />}</button>
-          </div>
-
-          <div className={`menu ${abrirFechar == true ? "" : "close"}`}>
-            <nav>
-              <Link to={'/'}>Home</Link>
-              <Link to={'/Sobre'}>Sobre</Link>
-              <Link to={'/Publico'}>Público Alvo</Link>
-              <Link to={'/Diferencial'}>Diferencial</Link>
-              <Link to={'/Equipamentos'}>Equipamentos</Link>
-            </nav>
-          </div>
-        </div>
-
-        <div className="menu-desktop">
-          <nav>
-            <Link to={'/'}>Home</Link> &nbsp;&nbsp;&nbsp;
-            <Link to={'/Sobre'}>Sobre</Link>&nbsp;&nbsp;&nbsp;
-            <Link to={'/Publico'}>Público Alvo</Link>&nbsp;&nbsp;&nbsp;
-            <Link to={'/Diferencial'}>Diferencial</Link>&nbsp;&nbsp;&nbsp;
-            <Link to={'/Equipamentos'}>Equipamentos</Link>&nbsp;&nbsp;&nbsp;
-          </nav>
-        </div>
-
-      </header>
+    <>
+    <Header/>
 
       <main className='contentpa'>
         <div className='titulopa'>
@@ -57,6 +17,10 @@ function Publico() {
           <br />
           <h1>Público Alvo</h1>
           <br />
+        </div>
+
+        <div className='figurepa'>
+            <img src={Exemplo} alt="Logo do Smart FireMan" />
         </div>
 
         <div className='textpa'>
@@ -79,12 +43,6 @@ function Publico() {
             emergência. Segurança garantida em um dispositivo
             compacto e de fácil integração.</p>
           <br />
-
-          <div className='figurepa'>
-            <img src={Exemplo} alt="Logo do Smart FireMan" />
-          </div>
-
-          <div className='pt2'>
             <li>Construtoras e empreendimentos imobiliários:</li>
             <p>Destaque-se no mercado imobiliário oferecendo o
               Smart FireMan - o diferencial de segurança essencial
@@ -99,9 +57,8 @@ function Publico() {
               compacto, atendendo às exigências de prevenção de
               incêndios.</p>
           </div>
-        </div>
       </main>
-    </div>
+      </>
   )
 }
 

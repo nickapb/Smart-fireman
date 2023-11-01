@@ -1,55 +1,15 @@
-import './Diferencial.css'
 
-import { useState } from "react"
-import { List, X } from "@phosphor-icons/react"
-import { Link } from 'react-router-dom'
 
+import Header from '../Header/header/header'
 import Logo from './img/Logo.png'
 import Exemplo from './img/img-exe.png'
 
 function Diferencial() {
-  const [abrirFechar, setAbrirFechar] = useState(false)
-
-  function handleAbrirFecharMenu() {
-    if (abrirFechar) {
-      setAbrirFechar(false)
-      return
-    }
-
-    setAbrirFechar(true)
-  }
-
+  
 
   return (
-    <div className='diferencial'>
-      <header className='menud'>
-        <div className="menu-mobile">
-          <div className="botao-menu">
-            <button onClick={handleAbrirFecharMenu}>{abrirFechar == true ? <X size={32} /> : <List size={32} />}</button>
-          </div>
-
-          <div className={`menu ${abrirFechar == true ? "" : "close"}`}>
-            <nav>
-              <Link to={'/'}>Home</Link>
-              <Link to={'/Sobre'}>Sobre</Link>
-              <Link to={'/Publico'}>Público Alvo</Link>
-              <Link to={'/Diferencial'}>Diferencial</Link>
-              <Link to={'/Equipamentos'}>Equipamentos</Link>
-            </nav>
-          </div>
-        </div>
-
-        <div className="menu-desktop">
-          <nav>
-            <Link to={'/'}>Home</Link> &nbsp;&nbsp;&nbsp;
-            <Link to={'/Sobre'}>Sobre</Link>&nbsp;&nbsp;&nbsp;
-            <Link to={'/Publico'}>Público Alvo</Link>&nbsp;&nbsp;&nbsp;
-            <Link to={'/Diferencial'}>Diferencial</Link>&nbsp;&nbsp;&nbsp;
-            <Link to={'/Equipamentos'}>Equipamentos</Link>&nbsp;&nbsp;&nbsp;
-          </nav>
-        </div>
-
-      </header>
+    <>
+    <Header/>
 
       <main className='contentd'>
         <div className='titulod'>
@@ -67,7 +27,7 @@ function Diferencial() {
           </div>
           </div>
       </main>
-    </div>
+      </>
   )
 }
 
