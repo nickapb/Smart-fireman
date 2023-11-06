@@ -2,11 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-}
-
-a{
-    text-decoration: none;
 }
 
 .botao-menu {
@@ -39,6 +34,55 @@ a{
 .menu-desktop {
     background-color: #FFCDC6;
     display: none;
+}
+
+.diferencial{
+    background: #fff;
+}
+
+.titulod h1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.titulod img{
+    float: left;
+    justify-content: left;
+    width: 2rem; 
+    margin-top: 0.2rem;
+    margin-left: 1rem; 
+}
+
+.contentd{
+    text-align: left;
+    justify-content: left;
+}
+
+.textd{
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+}
+
+.textd p{
+    color: #000;
+    font-family: Commissioner;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.figured{
+    display: flex;
+    justify-content: center;
+  }
+
+.figured img{
+    width: 25rem;
 }
 
 
@@ -116,5 +160,6 @@ a{
     
     .figured img{
         width: 50rem;
+        margin: 3rem;
     }
 }

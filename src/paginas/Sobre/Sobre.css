@@ -6,7 +6,7 @@
 
 
 .botao-menu {
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     height: 4rem;
     padding-inline: 2rem;
     display: flex;
@@ -14,7 +14,7 @@
 }
 
 .menu {
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     width: 12rem;
     height: calc(100vh - 4rem);
     padding-right: 2rem;
@@ -61,8 +61,6 @@
 }
 
 
-
-
 .texts p{
     color: #000;
     font-family: Commissioner;
@@ -89,7 +87,6 @@
 
 @media(min-width: 900px) {
     .menu-mobile {
-        background-color: #FFCDC6;
         display: flex;
         justify-content: space-between;
         display: none;
@@ -106,7 +103,6 @@
     }
 
     .menus{
-        background-color: #FFCDC6;
         color: #FFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: Montserrat;

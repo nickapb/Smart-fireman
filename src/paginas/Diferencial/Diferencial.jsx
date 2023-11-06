@@ -3,6 +3,7 @@
 import Header from '../Header/header/header'
 import Logo from './img/Logo.png'
 import Exemplo from './img/img-exe.png'
+import "./Diferencial.css"
 
 function Diferencial() {
   
