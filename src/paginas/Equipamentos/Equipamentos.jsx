@@ -8,7 +8,7 @@ import GSM from './img/GSM.png'
 import KY026 from './img/KY-026.png'
 import LCD from './img/LCD.png'
 import LM25963A from './img/LM2596-3A.png'
-import Bateria from './img/Bateria-externa.png'
+import Blue from './img/Modulo-bluetooth.png'
 import Header from '../Header/header/header'
 
 
@@ -83,12 +83,12 @@ function Equipamentos() {
         </div>
 
         <div className='texte'>
-          <h1>Energia externa</h1>
-          <p>As baterias 9V proporcionam energia confiável aos aparelhos do dia a dia, como brinquedos, controles remotos, consoles de jogos portáteis, fechaduras eletrônicas, lanternas, etc. Além disso, a tecnologia de Duracell preserva a energia das pilhas que ainda não foram usadas, por até 5 anos.</p>
+          <h1>Módulo Bluetooth</h1>
+          <p>O módulo Bluetooth HC06 funciona por meio de comunicação serial, onde após conexão, envia e recebe dados TTL sem fio, ou seja, não é necessário utilizar nenhum tipo de cabo para fazer a comunicação entre os equipamentos.</p>
         </div>
         <br />
-        <div className='bateria'>
-          <img src={Bateria} alt="imagem da bateria" />
+        <div className='blue'>
+          <img src={Blue} alt="imagem do modulo bluetooth" />
         </div>
       </div>
    </main>

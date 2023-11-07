@@ -150,12 +150,12 @@
     width: 15rem;
 }
 
-.bateria{
+.blue{
     display: flex;
     justify-content: center;
 }
 
-.bateria img{
+.blue img{
     width: 20rem;
 }
 
@@ -289,12 +289,12 @@
         width: 30rem;
     }
 
-    .bateria{
+    .blue{
         display: flex;
         justify-content: center;
     }
 
-    .bateria img{
+    .blue img{
         width: 30rem;
     }
 
