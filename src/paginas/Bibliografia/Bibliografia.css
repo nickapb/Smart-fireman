@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.botao-menu {
+    border: 1px solid #ccc;
+    height: 4rem;
+    padding-inline: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    border: 1px solid #ccc;
+    width: 12rem;
+    height: calc(100vh - 4rem);
+    padding-right: 2rem;
+    transition: translate .3s;
+}
+
+.menu nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}   
+
+.menu.close {
+    translate: -100%;
+}
+
+.menu-desktop {
+    background-color: #FFCDC6;
+    display: none;
+}
+
+.bibli{
+    background: #fff;
+}
+
+.bibli h2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1rem;
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.link{
+    color: #000;
+    font-family: Commissioner;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+    display: flex;
+}
+
+
+@media(min-width: 900px) {
+    .menu-mobile {
+        background-color: #FFCDC6;
+        display: flex;
+        justify-content: space-between;
+        display: none;
+    }
+
+    .menu-desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menub{
+        background-color: #FFCDC6;
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Montserrat;
+        font-size: 1.2rem;
+        font-weight: 800;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.0rem;    
+    }
+
+    .bibli{
+        background: #fff;
+    }
+    
+    .bibli h2{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 1rem;
+        display: flex;
+        margin-top: 1.5rem;
+    }
+    
+    .link{
+        color: #000;
+        font-family: Commissioner;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: underline;
+        display: flex;
+    }
+}

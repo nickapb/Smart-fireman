@@ -5,6 +5,7 @@ import Publico from './paginas/Publico-Alvo/Publico'
 import Equipamentos from './paginas/Equipamentos/Equipamentos'
 import Diferencial from './paginas/Diferencial/Diferencial'
 import Principal from './paginas/Principal/Principal'
+import Bibliografia from './paginas/Bibliografia/Bibliografia'
 
 function Rotas() {
     return (
@@ -14,6 +15,7 @@ function Rotas() {
             <Route path='/Publico' element={<Publico />} />
             <Route path='/Equipamentos' element={<Equipamentos />} />
             <Route path='/Diferencial' element={<Diferencial />} />
+            <Route path='/Bibliografia' element={<Bibliografia />} />
         </Routes>
     )
 }
