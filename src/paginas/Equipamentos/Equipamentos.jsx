@@ -4,10 +4,8 @@ import './Equipamentos.css'
 import Logo from './img/Logo.png'
 import Arduino from './img/Arduino.png'
 import MQ2 from './img/MQ-2.png'
-import GSM from './img/GSM.png'
 import KY026 from './img/KY-026.png'
 import LCD from './img/LCD.png'
-import LM25963A from './img/LM2596-3A.png'
 import Blue from './img/Modulo-bluetooth.png'
 import Header from '../Header/header/header'
 
@@ -62,24 +60,6 @@ function Equipamentos() {
         <br />
         <div className='ky'>
           <img src={KY026} alt="imagem do KY026" />
-        </div>
-
-        <div className='texte'>
-          <h1>GSM GPRS SIM800L</h1>
-          <p>É usado para ter acesso as redes operacionais de celular por todo o Brasil. Basta inserir um cartão SIM Card / chip para ter acesso as funcionalidades do produto.</p>
-        </div>
-        <br />
-        <div className='gsm'>
-          <img src={GSM} alt="imagem do gsm" />
-        </div>
-
-        <div className='texte'>
-          <h1>LM2596 3A</h1>
-          <p>Trata-se de um módulo regulador de tensão que aceita tensões de 4,5 a 28 V com saída variando de 0,8 a 20 V</p>
-        </div>
-        <br />
-        <div className='lm'>
-          <img src={LM25963A} alt="imagem do LM25963A" />
         </div>
 
         <div className='texte'>
