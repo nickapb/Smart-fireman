@@ -36,6 +36,7 @@ function Header() {
                 <Link to={'/Publico'}>Público Alvo</Link>
                 <Link to={'/Diferencial'}>Diferencial</Link>
                 <Link to={'/Equipamentos'}>Equipamentos</Link>
+                <Link to={'/Bibliografia'}>Bibliografia</Link>
               </nav>
             </div>
           </div>
@@ -47,6 +48,7 @@ function Header() {
               <Link to={'/Publico'}>Público Alvo</Link>&nbsp;&nbsp;&nbsp;
               <Link to={'/Diferencial'}>Diferencial</Link>&nbsp;&nbsp;&nbsp;
               <Link to={'/Equipamentos'}>Equipamentos</Link>&nbsp;&nbsp;&nbsp;
+              <Link to={'/Bibliografia'}>Bibliografia</Link>&nbsp;&nbsp;&nbsp;
             </nav>
           </div>
         </div>
