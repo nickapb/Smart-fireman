@@ -1,7 +1,7 @@
 import './Sobre.css'
 
 
-import Logo from './img/Logo.png'
+import Logo from './Img/Logo.png'
 import Exemplo from './Img/Imagem-exemplo.png'
 import Header from '../Header/header/header'
 
