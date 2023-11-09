@@ -75,6 +75,16 @@
 .textpa{
     margin-top: 0.2rem;
     margin-left: 1rem;
+
+    max-width: 50rem;
+    text-align: center;
+}
+
+.imagem-texto {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-direction: row-reverse;
 }
 
 .textpa li{

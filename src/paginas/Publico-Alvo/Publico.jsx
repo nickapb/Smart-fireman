@@ -19,7 +19,8 @@ function Publico() {
           <br />
         </div>
 
-        <div className='figurepa'>
+      <div className='imagem-texto'>
+      <div className='figurepa'>
             <img src={Exemplo} alt="Logo do Smart FireMan" />
         </div>
 
@@ -57,6 +58,7 @@ function Publico() {
               compacto, atendendo às exigências de prevenção de
               incêndios.</p>
           </div>
+      </div>
       </main>
       </>
   )
